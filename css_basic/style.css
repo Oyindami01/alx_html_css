@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: deeppink;
+
+
+}
+ body main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+body main article{
+    flex: 2;
+    overflow-y: auto;
+}
+body main aside{
+    flex: 1;
+    overflow-y: auto;
+}
