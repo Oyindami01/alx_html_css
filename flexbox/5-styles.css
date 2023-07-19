@@ -202,9 +202,7 @@
     /* Navbar
       ============================= */
     
-    .navbar-menu {
-    float: right;
-    }
+    
     
     .nav {
     margin: 0;
@@ -259,7 +257,7 @@
          background: transparent;
 
     }
-    .header .header-container{
+     .header-container{
         display: flex;
         justify-content: space-between;
     }
