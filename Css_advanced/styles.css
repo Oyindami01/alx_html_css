@@ -1,0 +1,164 @@
+/* LOGO */
+
+.logo{
+    float: left;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+/* NAVIGATION */
+
+.navigation ul{
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-size: 20%;
+    
+
+}
+
+.navigation li{
+
+    float: right;
+}
+
+.navigation li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+    
+
+}
+/* HEADINGS */
+
+.heading h1{
+    color: white;
+    text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+  'Lucida Grande', 'Lucida Sans Unicode';
+ font-size: 60px;
+ font-weight: 100px;
+ margin: -5px;
+}
+ .heading .display{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+ }
+ .heading .display p{
+    margin: 15px;
+    
+ }
+
+ .learn{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+ }
+
+/* IMAGES */
+
+ .images{
+    display: flex;
+    margin: 20px;
+  justify-content: space-between;
+ }
+
+ .images .image-1{
+    color: white;
+    
+ }
+ .images .image-2{
+    color: white;
+ }
+
+ .images .image-3{
+    color: white;
+    
+ }
+ .images .image-4{
+    color: white;
+ }
+
+/* SECTION_1 */
+
+ .section-1{
+    background-color: rgb(241, 113, 241);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+    border: 0;
+ }
+ .section-1 img{
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+ .section-1 p{
+    margin-top: 8%;
+    margin-left: 20px;
+    margin-bottom: 5%;
+ }
+
+ /* SECTION_2 */
+
+.section-2 .smile-images{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section-2 .philip{
+    display: flex;
+}
+.section-2 .philip img{
+    margin:5px;
+    width: 20px;
+}
+
+/* SECTION-3 */
+
+.section-3{
+    background-color: rgba(11, 11, 48, 0.972);  
+    margin: 0;
+    padding: 0;
+}
+
+
+.section-3 p{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.section-3 .smiles{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* FAQ */
+
+.faq .paragraph p{
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: rgba(11, 11, 48, 0.972);
+    padding: 15px;
+    margin-top: 15px;
+    
+}
+
+.footer img{
+    width: 80px;
+}
+ 
