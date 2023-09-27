@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input[type="checkbox"],
+      input[type="file"] {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Feedback Form</h2>
+    <form action="#" method="post" onsubmit=" ">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label>Feedback Options:</label>
+      <label for="excellent">
+        <input
+          type="checkbox"
+          id="excellent"
+          name="feedback"
+          value="excellent"
+        />
+        Excellent
+      </label>
+      <label for="good">
+        <input type="checkbox" id="good" name="feedback" value="good" />
+        Good
+      </label>
+      <label for="average">
+        <input type="checkbox" id="average" name="feedback" value="average" />
+        Average
+      </label>
+      <label for="poor">
+        <input type="checkbox" id="poor" name="feedback" value="poor" />
+        Poor
+      </label>
+
+      <label for="file">Upload a file:</label>
+      <input
+        type="file"
+        id="file"
+        name="file"
+        accept=".pdf, .doc, .docx, .txt"
+        required
+      />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
